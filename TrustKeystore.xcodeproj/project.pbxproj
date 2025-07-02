@@ -32,10 +32,10 @@
 		61FC584C1FE24A8C00FFC765 /* KeystoreKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC584B1FE24A8C00FFC765 /* KeystoreKey.swift */; };
 		61FC58551FE2C39700FFC765 /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC58541FE2C39700FFC765 /* Scrypt.swift */; };
 		61FC585D1FE3904600FFC765 /* ScryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FC585C1FE3904600FFC765 /* ScryptTests.swift */; };
-		742A3CD8CA3E56C74A3D84EF /* Pods_TrustKeystore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CDD76074CC2CFEF09CAA54 /* Pods_TrustKeystore.framework */; };
+		65C4D3543F62F5E86EEDD6CD /* Pods_TrustKeystore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB097D987CDBDD112478E84 /* Pods_TrustKeystore.framework */; };
 		771A471F213A2AA90002A0AA /* key_bitcoin.json in Resources */ = {isa = PBXBuildFile; fileRef = 771A471D213A29310002A0AA /* key_bitcoin.json */; };
-		F45B9EE7006B204F676FC2AA /* Pods_TrustKeystore_KeystoreBenchmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A8CDAD6453D4708739B547 /* Pods_TrustKeystore_KeystoreBenchmark.framework */; };
-		F6A9F28E31D4DB81E7CA7F3F /* Pods_TrustKeystore_TrustKeystoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87188CBD5FFF8EC1968F404 /* Pods_TrustKeystore_TrustKeystoreTests.framework */; };
+		A493F2CAA3C0B6841C251151 /* Pods_TrustKeystore_KeystoreBenchmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FD84E7DFE9B6E5B78EFDC5 /* Pods_TrustKeystore_KeystoreBenchmark.framework */; };
+		D434BCED56EEC79A422138C9 /* Pods_TrustKeystore_TrustKeystoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB425E3AA778FE1096348CBF /* Pods_TrustKeystore_TrustKeystoreTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 13;
 			files = (
 				61C568FB1FE599D900FC2F75 /* TrustKeystore.framework in Embed Frameworks */,
 			);
@@ -70,9 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B9466DC8156D7FA54B43B6D /* Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		17379EC78D11E0161D0E1307 /* Pods-TrustKeystore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrustKeystore/Pods-TrustKeystore.release.xcconfig"; sourceTree = "<group>"; };
-		49CDD76074CC2CFEF09CAA54 /* Pods_TrustKeystore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustKeystore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E85CC0D834D0A4094B6ED8 /* Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig"; path = "Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig"; sourceTree = "<group>"; };
 		611EFEBE20F599A500A00E53 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
 		611EFEC020F5AD5200A00E53 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		611EFEC220F5BCC700A00E53 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
@@ -102,13 +100,15 @@
 		61FC584B1FE24A8C00FFC765 /* KeystoreKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystoreKey.swift; sourceTree = "<group>"; };
 		61FC58541FE2C39700FFC765 /* Scrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
 		61FC585C1FE3904600FFC765 /* ScryptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScryptTests.swift; sourceTree = "<group>"; };
+		6DBBC0F2294636881C16A9CA /* Pods-TrustKeystore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore.release.xcconfig"; path = "Target Support Files/Pods-TrustKeystore/Pods-TrustKeystore.release.xcconfig"; sourceTree = "<group>"; };
 		771A471D213A29310002A0AA /* key_bitcoin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = key_bitcoin.json; sourceTree = "<group>"; };
-		8D3D60D6FA5E0FDA441C2464 /* Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig"; sourceTree = "<group>"; };
-		B87188CBD5FFF8EC1968F404 /* Pods_TrustKeystore_TrustKeystoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustKeystore_TrustKeystoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2AEC91B9F14D8140DBDCC2C /* Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E9A8CDAD6453D4708739B547 /* Pods_TrustKeystore_KeystoreBenchmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustKeystore_KeystoreBenchmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F89F7E016E73C75E518A36B2 /* Pods-TrustKeystore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrustKeystore/Pods-TrustKeystore.debug.xcconfig"; sourceTree = "<group>"; };
-		FC8C566AA12572AEF59D1BA0 /* Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig"; sourceTree = "<group>"; };
+		86FD84E7DFE9B6E5B78EFDC5 /* Pods_TrustKeystore_KeystoreBenchmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustKeystore_KeystoreBenchmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B521E9F080504A801B8E3B6 /* Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig"; path = "Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB425E3AA778FE1096348CBF /* Pods_TrustKeystore_TrustKeystoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustKeystore_TrustKeystoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC71AF023F455111D3AD4647 /* Pods-TrustKeystore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore.debug.xcconfig"; path = "Target Support Files/Pods-TrustKeystore/Pods-TrustKeystore.debug.xcconfig"; sourceTree = "<group>"; };
+		CB1E40203F847665C5DD898F /* Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig"; path = "Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1EA47037C126683E7D1CB71 /* Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig"; path = "Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB097D987CDBDD112478E84 /* Pods_TrustKeystore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustKeystore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61C568FA1FE599D900FC2F75 /* TrustKeystore.framework in Frameworks */,
-				F45B9EE7006B204F676FC2AA /* Pods_TrustKeystore_KeystoreBenchmark.framework in Frameworks */,
+				A493F2CAA3C0B6841C251151 /* Pods_TrustKeystore_KeystoreBenchmark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742A3CD8CA3E56C74A3D84EF /* Pods_TrustKeystore.framework in Frameworks */,
+				65C4D3543F62F5E86EEDD6CD /* Pods_TrustKeystore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,26 +134,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				61FC582B1FE2490E00FFC765 /* TrustKeystore.framework in Frameworks */,
-				F6A9F28E31D4DB81E7CA7F3F /* Pods_TrustKeystore_TrustKeystoreTests.framework in Frameworks */,
+				D434BCED56EEC79A422138C9 /* Pods_TrustKeystore_TrustKeystoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		124BD5EA35BBF064AD69D2DF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F89F7E016E73C75E518A36B2 /* Pods-TrustKeystore.debug.xcconfig */,
-				17379EC78D11E0161D0E1307 /* Pods-TrustKeystore.release.xcconfig */,
-				C2AEC91B9F14D8140DBDCC2C /* Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig */,
-				0B9466DC8156D7FA54B43B6D /* Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig */,
-				8D3D60D6FA5E0FDA441C2464 /* Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig */,
-				FC8C566AA12572AEF59D1BA0 /* Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		610B9B9F202EE20E00C4B10C /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,8 +174,8 @@
 				61FC58441FE2495E00FFC765 /* Tests */,
 				61C568E91FE599CF00FC2F75 /* Benchmark */,
 				61FC58221FE2490E00FFC765 /* Products */,
-				124BD5EA35BBF064AD69D2DF /* Pods */,
-				CA87661540ADCE75A47829A8 /* Frameworks */,
+				EF652D0B0522C029002BDA9E /* Pods */,
+				DBDF7661E41861A936A5F6FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,14 +227,27 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		CA87661540ADCE75A47829A8 /* Frameworks */ = {
+		DBDF7661E41861A936A5F6FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49CDD76074CC2CFEF09CAA54 /* Pods_TrustKeystore.framework */,
-				B87188CBD5FFF8EC1968F404 /* Pods_TrustKeystore_TrustKeystoreTests.framework */,
-				E9A8CDAD6453D4708739B547 /* Pods_TrustKeystore_KeystoreBenchmark.framework */,
+				FCB097D987CDBDD112478E84 /* Pods_TrustKeystore.framework */,
+				86FD84E7DFE9B6E5B78EFDC5 /* Pods_TrustKeystore_KeystoreBenchmark.framework */,
+				AB425E3AA778FE1096348CBF /* Pods_TrustKeystore_TrustKeystoreTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF652D0B0522C029002BDA9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC71AF023F455111D3AD4647 /* Pods-TrustKeystore.debug.xcconfig */,
+				6DBBC0F2294636881C16A9CA /* Pods-TrustKeystore.release.xcconfig */,
+				D1EA47037C126683E7D1CB71 /* Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig */,
+				57E85CC0D834D0A4094B6ED8 /* Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig */,
+				8B521E9F080504A801B8E3B6 /* Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig */,
+				CB1E40203F847665C5DD898F /* Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,12 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61C568F71FE599CF00FC2F75 /* Build configuration list for PBXNativeTarget "KeystoreBenchmark" */;
 			buildPhases = (
-				753738606A221C0BA458D986 /* [CP] Check Pods Manifest.lock */,
+				FEA3AB66D7BA4C83681B6E70 /* [CP] Check Pods Manifest.lock */,
 				61C568E41FE599CF00FC2F75 /* Sources */,
 				61C568E51FE599CF00FC2F75 /* Frameworks */,
 				61C568E61FE599CF00FC2F75 /* Resources */,
 				61C568FE1FE599D900FC2F75 /* Embed Frameworks */,
-				96567C8A6F4786D624D0DAF2 /* [CP] Embed Pods Frameworks */,
+				1AA95221E3C087056C4A65A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,7 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC58351FE2490E00FFC765 /* Build configuration list for PBXNativeTarget "TrustKeystore" */;
 			buildPhases = (
-				C5352213E62A9F7A00AB309B /* [CP] Check Pods Manifest.lock */,
+				066E662CD9B78E74765159D8 /* [CP] Check Pods Manifest.lock */,
 				61FC581C1FE2490E00FFC765 /* Sources */,
 				61FC581D1FE2490E00FFC765 /* Frameworks */,
 				61FC581E1FE2490E00FFC765 /* Headers */,
@@ -309,11 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FC58381FE2490E00FFC765 /* Build configuration list for PBXNativeTarget "TrustKeystoreTests" */;
 			buildPhases = (
-				682878827DE0FBE9361CB1D8 /* [CP] Check Pods Manifest.lock */,
+				B40B55D23ADE07E1EB1786BB /* [CP] Check Pods Manifest.lock */,
 				61FC58261FE2490E00FFC765 /* Sources */,
 				61FC58271FE2490E00FFC765 /* Frameworks */,
 				61FC58281FE2490E00FFC765 /* Resources */,
-				F2780A2821203580B330C58E /* [CP] Embed Pods Frameworks */,
+				BDB70416AE3B0880FC779B19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -403,6 +403,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		066E662CD9B78E74765159D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrustKeystore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AA95221E3C087056C4A65A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustCore/TrustCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrezorCrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		61DCE1691FFF50810053939F /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,16 +465,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		682878827DE0FBE9361CB1D8 /* [CP] Check Pods Manifest.lock */ = {
+		B40B55D23ADE07E1EB1786BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TrustKeystore-TrustKeystoreTests-checkManifestLockResult.txt",
 			);
@@ -435,96 +487,52 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		753738606A221C0BA458D986 /* [CP] Check Pods Manifest.lock */ = {
+		BDB70416AE3B0880FC779B19 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustCore/TrustCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrezorCrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA3AB66D7BA4C83681B6E70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TrustKeystore-KeystoreBenchmark-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96567C8A6F4786D624D0DAF2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
-				"${BUILT_PRODUCTS_DIR}/TrustCore/TrustCore.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrezorCrypto.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustCore.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrustKeystore-KeystoreBenchmark/Pods-TrustKeystore-KeystoreBenchmark-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5352213E62A9F7A00AB309B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TrustKeystore-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F2780A2821203580B330C58E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
-				"${BUILT_PRODUCTS_DIR}/TrustCore/TrustCore.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrezorCrypto.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustCore.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrustKeystore-TrustKeystoreTests/Pods-TrustKeystore-TrustKeystoreTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -603,7 +611,7 @@
 /* Begin XCBuildConfiguration section */
 		61C568F81FE599CF00FC2F75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D3D60D6FA5E0FDA441C2464 /* Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig */;
+			baseConfigurationReference = D1EA47037C126683E7D1CB71 /* Pods-TrustKeystore-KeystoreBenchmark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,7 +625,7 @@
 		};
 		61C568F91FE599CF00FC2F75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC8C566AA12572AEF59D1BA0 /* Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig */;
+			baseConfigurationReference = 57E85CC0D834D0A4094B6ED8 /* Pods-TrustKeystore-KeystoreBenchmark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -680,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -737,7 +745,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -750,7 +758,7 @@
 		};
 		61FC58361FE2490E00FFC765 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F89F7E016E73C75E518A36B2 /* Pods-TrustKeystore.debug.xcconfig */;
+			baseConfigurationReference = BC71AF023F455111D3AD4647 /* Pods-TrustKeystore.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -761,6 +769,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Metadata/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.TrustKeystore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -772,7 +781,7 @@
 		};
 		61FC58371FE2490E00FFC765 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17379EC78D11E0161D0E1307 /* Pods-TrustKeystore.release.xcconfig */;
+			baseConfigurationReference = 6DBBC0F2294636881C16A9CA /* Pods-TrustKeystore.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -783,6 +792,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Metadata/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.TrustKeystore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -793,7 +803,7 @@
 		};
 		61FC58391FE2490E00FFC765 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2AEC91B9F14D8140DBDCC2C /* Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig */;
+			baseConfigurationReference = 8B521E9F080504A801B8E3B6 /* Pods-TrustKeystore-TrustKeystoreTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Metadata/TestsInfo.plist;
@@ -806,7 +816,7 @@
 		};
 		61FC583A1FE2490E00FFC765 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B9466DC8156D7FA54B43B6D /* Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig */;
+			baseConfigurationReference = CB1E40203F847665C5DD898F /* Pods-TrustKeystore-TrustKeystoreTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Metadata/TestsInfo.plist;

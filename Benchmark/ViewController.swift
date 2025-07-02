@@ -6,6 +6,7 @@
 
 import TrustKeystore
 import UIKit
+import TrustCore
 
 class ViewController: UIViewController {
     @IBOutlet private weak var startStopButton: UIButton!
@@ -37,12 +38,34 @@ class ViewController: UIViewController {
     }
 
     func run() {
-        log("Creating keystore ")
-        let privateKey = Data(hexString: "3a1076bf45ab87712ad64ccb3b10217737f7faacbf2872e88fdd9a537d8fe266")!
-        let key = try! KeystoreKey(password: "password", key: privateKey)
-        log("Decrypting keystore")
-        let decrypted = try! key.decrypt(password: "password")
-        log("Finished")
+        log("Creating keystore")
+            
+            // Initialize PrivateKey from Data
+//           public init?(base64Encoded base64String: String, options: Data.Base64DecodingOptions = [])
+            let privateKeyData = Data(hexString: "3a1076bf45ab87712ad64ccb3b10217737f7faacbf2872e88fdd9a537d8fe266")
+            
+            guard let unwrappedPrivateKeyData = privateKeyData else {
+                log("Failed to convert hex string to Data")
+                return
+            }
+            
+            guard let privateKey = PrivateKey(data: unwrappedPrivateKeyData) else {
+                log("Failed to create PrivateKey")
+                return
+            }
+            
+            // Specify the coin type
+            let coinType: SLIP.CoinType = .bitcoin // Replace with the appropriate coin type
+            
+            // Initialize KeystoreKey with the coin type
+            do {
+                let key = try KeystoreKey(password: "password", key: privateKey, coin: coinType)
+                log("Decrypting keystore")
+                let decrypted = try key.decrypt(password: "password")
+                log("Finished")
+            } catch {
+                log("Error: \(error)")
+            }
     }
 
     func log(_ message: String) {
